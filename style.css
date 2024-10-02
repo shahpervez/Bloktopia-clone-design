@@ -1,0 +1,592 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    
+    background-color: black;
+}
+
+.bodyy{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.navWrapper{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+
+.navPlaceholder{
+    background-color: red;
+    width: 100%;
+    height: 99px;
+}
+
+.bigScreenNav{
+    background-color: black;
+
+    display: block;
+}
+
+.smallScreenNav{
+    background-color: black;
+
+    display: none;
+
+    width: 95%;
+}
+
+.thenav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hamBtn{
+    background-color: purple;
+    color: white !important;
+    fill: white;
+}
+
+.customNavDropdownBtn{
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+}
+
+.customNavDropdownBtn:hover{
+    color: #ED07C1;
+    background-color: black;
+}
+
+.customNavDropdownBtn:focus{
+    background-color: black;
+}
+
+.customNavDropdownBtn:active{
+    background-color: black;
+}
+
+.customNavStyle{
+    background-color: black !important;
+
+    display: flex;
+    justify-content: space-betwee;
+}
+
+.asdfadsf{
+    color: white;
+}
+
+.customNavDropdownList{
+    color: white;
+    background-color: black;
+    padding: none;
+
+    margin-left: calc(50% - 79px);
+    
+    /* margin: 0 auto; */
+}
+
+.socialsDropdown{
+    text-align: center;
+}
+
+.socialsDropdown li a{
+    font-size: 23px;
+}
+
+.customNavDropdownList a{
+    color: white;
+    font-weight: bold;
+    border: 1px solid #353535;
+    font-size: 15px;
+
+}
+
+.customNavDropdownList a:hover{
+    color: #ED07C1;
+    background-color: black;
+}
+
+.customNavLinkItem{
+    color: white;
+    font-weight: bold;
+}
+
+.customNavLinkItem:hover{
+    color: #ED07C1;
+}
+
+.customNavItems{
+    font-size: 15px;
+    width: 100%;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+.walletNavBtn{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: #ED07C1;
+}
+
+.customNavLink li a:focus{
+    color: white;
+}
+
+.thenav{
+    background-color: black;
+}
+
+.bigScreenNav{
+
+    background-color: black;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Hero Sec */
+
+
+
+
+
+
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.heroContent{
+    width: 95%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.heroImg{
+
+
+    width: 47%;
+    padding: 90px 0px 60px 40px;
+}
+
+.heroImg img{
+    width: 100%;
+
+    border: 2px solid #353535;
+    border-radius: 15px;
+}
+
+.heroText{
+
+
+    width: 47%;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroText h1{
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.heroText p{
+    color: white;
+}
+
+.heroText span{
+    color: #ED07C1;
+}
+
+.heroBtn{
+    padding: 10px;
+    width: 220px;
+    color: #ED07C1;
+    border: 2px solid #ED07C1;
+    border-radius: 10px;
+    background-color: #171717;
+}
+
+.heroBtn:hover{
+    color: white;
+    background-color: #ED07C1;
+}
+
+/* Fake Carousel */
+
+.fakeCarousel{
+    width: 100%;
+
+    padding: 100px 0px;
+}
+
+.fakeCarouselContent{
+    width: 95%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fakeCarouselRight{
+    width: 44.5%;
+}
+
+.outerbox{
+    width: 130px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid #353535;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.innerCircle{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 1px solid #ED07C1;
+
+}
+
+.firstCircle{
+    background-color: #ED07C1;
+}
+
+.whatis{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgLeft, .whatisText, .imgRight{
+
+    display: flex;
+    align-items: center;
+}
+
+.imgLeft{
+    width: 37%;
+}
+
+.whatisText{
+    width: 25%;
+}
+
+.imgRight{
+    width: 37%;
+}
+
+.imgLeft img, .imgRight img{
+    width: 100%;
+}
+
+.whatisText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.whatisText h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.whatisText p{
+    color: white;
+}
+
+.video{
+    width: 100%;
+}
+
+.videoContent{
+    width: 95%;
+}
+
+/* Cards */
+
+.cardsWrapper{
+    margin-bottom: 100px;
+}
+
+.cards{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.cardsContent{
+    width: 95%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardImg1{
+    background-image: url('./images/Earn\ cover.jpg');
+    background-size: cover;
+}
+
+.cardImg2{
+    background-image: url('./images/Play\ cover.jpg');
+    background-size: cover;
+}
+
+.cardImg3{
+    background-image: url('./images/DAO\ cover.jpg');
+    background-size: cover;
+}
+
+.cardImg4{
+    background-image: url('./images/NFT\'s\ cover.jpg');
+    background-size: cover;
+}
+
+.theCard{
+    width: 49%;
+
+    border: 2px solid #353535;
+    border-radius: 15px;
+
+}
+
+.imageLayer{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+
+    border-radius: 15px;
+
+}
+
+.imageLayer:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.cardData{
+    padding: 40px;
+}
+
+.cardText{
+    color: white;
+    text-align: center;
+
+    padding-top: 50px;
+}
+
+.cardText h1{
+    font-weight: bold;
+}
+
+.cardbtnStyle{
+    background-color: #353535;
+    border: 2px solid #ED07C1;
+    color: #ED07C1;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.cardBtn{
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+.cardbtnStyle:hover{
+    background-color: #ED07C1;
+    color: white;
+
+}
+
+.footer div{
+    margin: 10px 0;
+}
+
+.footer{
+    text-align: center;
+    background-color: #171717;
+    border-top: 2px solid #353535;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerContent{
+    width: 75%;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 27px;
+}
+
+.footerIcons a{
+    color: white;
+}
+
+.footerIcons a:hover{
+    color: #ED07C1;
+}
+
+.footerPara{
+    font-size: 11px;
+}
+
+.footerLinks{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footerLinks a{
+    color: #ED07C1;
+}
+
+.footerRights, .footerLinks{
+    font-size: 14px;
+}
+
+.footerOwner{
+    font-size: 12.8px;
+}
+
+
+@media ( width < 992px){
+
+    .navPlaceholder{
+        background-color: red;
+        width: 100%;
+        height: 48px;
+    }
+
+    .bigScreenNav{
+        display: none;
+    }
+
+    .smallScreenNav{
+        display: block;
+    }
+
+    .heroContent{
+        width: 100%;
+
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .heroImg{
+        width: 100%;
+        padding: 50px 0 0 0;
+    }
+
+    .heroText{
+        width: 100%;
+        text-align: center;
+    }
+
+    .heroBtn{
+        margin: 0 auto;
+    }
+
+    .heroText h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .fakeCarouselContent{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .fakeCarouselRight{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .whatis{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .imgLeft, .whatisText, .imgRight{
+        width: 100%;
+    }
+
+    .imgRight{
+        padding: 15px;
+    }
+
+    .cardsContent{
+        flex-wrap: wrap;
+    }
+
+    .theCard{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footerLinks{
+        flex-direction: column;
+        gap: 1px;
+    }
+}
